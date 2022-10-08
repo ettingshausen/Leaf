@@ -49,6 +49,7 @@
         <commons-io.version>2.4</commons-io.version>
         <log4j.version>2.7</log4j.version>
         <mybatis-spring.version>1.2.5</mybatis-spring.version>
+        <mssql-jdbc.version>6.4.0.jre8</mssql-jdbc.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -141,6 +142,11 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-connector-java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.microsoft.sqlserver</groupId>
+                <artifactId>mssql-jdbc</artifactId>
+                <version>${mssql-jdbc.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.mybatis</groupId>
